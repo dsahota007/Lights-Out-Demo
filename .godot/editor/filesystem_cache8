@@ -1,0 +1,45 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1712094383
+export_presets.cfg::TextFile::-1::1711334921::0::1::::<><>::
+::res://LevelFolder/::1712031433
+lvl1.tscn::PackedScene::6683375007469822424::1712006834::0::1::::<><>::uid://dvfmha77skkgf::::res://Scenes/mainCircle.tscn<>uid://df2sg12tx04fm::::res://Sprites/red-color-solid-background-1920x1080.png<>res://Scripts/PathFollow2D.gd<>uid://cn5ilj6c00sfs::::res://Scenes/enemy.tscn<>uid://bvcy5ywgk1k6x::::res://Scenes/nxt_lvl.tscn
+lvl2.tscn::PackedScene::3840577639865650779::1712031428::0::1::::<><>::uid://dvfmha77skkgf::::res://Scenes/mainCircle.tscn<>uid://df2sg12tx04fm::::res://Sprites/red-color-solid-background-1920x1080.png<>uid://bvcy5ywgk1k6x::::res://Scenes/nxt_lvl.tscn<>res://Scripts/PathFollow2D.gd<>uid://cn5ilj6c00sfs::::res://Scenes/enemy.tscn
+lvl3.tscn::PackedScene::1272831250613465662::1712006839::0::1::::<><>::uid://dvfmha77skkgf::::res://Scenes/mainCircle.tscn<>uid://df2sg12tx04fm::::res://Sprites/red-color-solid-background-1920x1080.png<>res://Scripts/PathFollow2D.gd<>uid://cn5ilj6c00sfs::::res://Scenes/enemy.tscn<>uid://bvcy5ywgk1k6x::::res://Scenes/nxt_lvl.tscn
+lvl4.tscn::PackedScene::569936688604709252::1712010670::0::1::::<><>::uid://dvfmha77skkgf::::res://Scenes/mainCircle.tscn<>uid://df2sg12tx04fm::::res://Sprites/red-color-solid-background-1920x1080.png<>res://Scripts/PathFollow2D.gd<>uid://cn5ilj6c00sfs::::res://Scenes/enemy.tscn<>uid://bvcy5ywgk1k6x::::res://Scenes/nxt_lvl.tscn
+lvl5.tscn::PackedScene::7302203306489691526::1712031433::0::1::::<><>::uid://dvfmha77skkgf::::res://Scenes/mainCircle.tscn<>uid://df2sg12tx04fm::::res://Sprites/red-color-solid-background-1920x1080.png<>uid://bvcy5ywgk1k6x::::res://Scenes/nxt_lvl.tscn<>res://Scripts/PathFollow2D.gd<>uid://cn5ilj6c00sfs::::res://Scenes/enemy.tscn<>uid://8aqjxu8uom0m::::res://Scenes/enemy2.tscn
+lvl6.tscn::PackedScene::5485999529638691440::1711860074::0::1::::<><>::uid://dvfmha77skkgf::::res://Scenes/mainCircle.tscn<>uid://df2sg12tx04fm::::res://Sprites/red-color-solid-background-1920x1080.png
+lvl7.tscn::PackedScene::4076957110180209531::1711860084::0::1::::<><>::uid://dvfmha77skkgf::::res://Scenes/mainCircle.tscn<>uid://df2sg12tx04fm::::res://Sprites/red-color-solid-background-1920x1080.png
+lvl8.tscn::PackedScene::7643410092016450136::1711860095::0::1::::<><>::uid://dvfmha77skkgf::::res://Scenes/mainCircle.tscn<>uid://df2sg12tx04fm::::res://Sprites/red-color-solid-background-1920x1080.png
+lvl9.tscn::PackedScene::8977750228274590126::1711860105::0::1::::<><>::uid://dvfmha77skkgf::::res://Scenes/mainCircle.tscn<>uid://df2sg12tx04fm::::res://Sprites/red-color-solid-background-1920x1080.png
+lvl10.tscn::PackedScene::89189160337755117::1711860114::0::1::::<><>::uid://dvfmha77skkgf::::res://Scenes/mainCircle.tscn<>uid://df2sg12tx04fm::::res://Sprites/red-color-solid-background-1920x1080.png
+::res://Scenes/::1712006845
+deathScreen.tscn::PackedScene::5044663355833370129::1712006845::0::1::::<><>::uid://pykkc1t2k6dr::::res://Sprites/BAD GRUNGE.ttf<>res://Scripts/deathScreen.gd
+enemy2.tscn::PackedScene::2317220624544278494::1712006845::0::1::::<><>::uid://wupd2atfr14j::::res://Sprites/white-circle-free-png.webp<>uid://b6kmmprohk3lr::::res://Sprites/gradslol.png<>res://Scripts/RayCast2D.gd
+enemy.tscn::PackedScene::5747733567701872988::1712006844::0::1::::<><>::uid://wupd2atfr14j::::res://Sprites/white-circle-free-png.webp<>uid://crhyj5tfwxtwm::::res://Sprites/lklkl.png<>res://Scripts/RayCast2D.gd
+LevelSelect.tscn::PackedScene::812863120423691353::1712006845::0::1::::<><>::res://Scripts/LevelSelect.gd<>uid://pykkc1t2k6dr::::res://Sprites/BAD GRUNGE.ttf
+mainCircle.tscn::PackedScene::8644290811630947689::1712006844::0::1::::<><>::uid://dv7lol6034lxc::::res://Sprites/main.png.png<>res://Scripts/mainCircle.gd<>uid://b6kmmprohk3lr::::res://Sprites/gradslol.png
+mainMenu.tscn::PackedScene::6776876140341324480::1712006845::0::1::::<><>::res://Scripts/mainMenu.gd<>uid://pykkc1t2k6dr::::res://Sprites/BAD GRUNGE.ttf
+nxt_lvl.tscn::PackedScene::3866027232076553741::1712006845::0::1::::<><>::uid://dbkcyqeidcpo1::::res://Sprites/Gravity-SpriteSheet.png<>res://Scripts/nxt_lvl.gd
+::res://Scripts/::1712004488
+Area2D.gd::GDScript::-1::1710992696::0::1::::<>Area2D<>::
+deathScreen.gd::GDScript::-1::1711258601::0::1::::<>Control<>::
+LevelSelect.gd::GDScript::-1::1711331426::0::1::::<>Control<>::
+mainCircle.gd::GDScript::-1::1710969930::0::1::::<>CharacterBody2D<>::
+mainMenu.gd::GDScript::-1::1711331478::0::1::::<>Control<>::
+nxt_lvl.gd::GDScript::-1::1711081388::0::1::::<>AnimatedSprite2D<>::
+PathFollow2D.gd::GDScript::-1::1710727715::0::1::::<>PathFollow2D<>::
+PointLight2D.gd::GDScript::-1::1710973086::0::1::::<>RefCounted<>::
+RayCast2D.gd::GDScript::-1::1711258571::0::1::::<>RayCast2D<>::
+::res://Sprites/::1711862912
+BAD GRUNGE.ttf::FontFile::1103002894646032211::1711244786::1711252508::1::::<><>::
+gradslol.png::CompressedTexture2D::4583669462210562359::1710798054::1710904954::1::::<><>::
+Gravity-SpriteSheet.png::CompressedTexture2D::7250259812217592562::1711057611::1711057611::1::::<><>::
+icon.svg::CompressedTexture2D::8156459365123646336::1710709049::1710904956::1::::<><>::
+lklkl.png::CompressedTexture2D::5981977238792001724::1710798616::1710904958::1::::<><>::
+main.png.png::CompressedTexture2D::8699981370463240516::1710709105::1710904960::1::::<><>::
+red-color-solid-background-1920x1080.png::CompressedTexture2D::7567049497474152834::1710715080::1710904967::1::::<><>::
+white-circle-free-png.webp::CompressedTexture2D::1586359646392227459::1710798260::1710904970::1::::<><>::
+::res://Web/::1711334921
+index.apple-touch-icon.png::CompressedTexture2D::7001971683175083661::1711334921::1711334752::1::::<><>::
+index.icon.png::CompressedTexture2D::7182425937412014700::1711334921::1711334752::1::::<><>::
+index.png::CompressedTexture2D::3377276602902959173::1711334921::1711334752::1::::<><>::

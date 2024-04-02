@@ -1,0 +1,74 @@
+[gd_scene load_steps=5 format=3 uid="uid://cn5ilj6c00sfs"]
+
+[ext_resource type="Texture2D" uid="uid://wupd2atfr14j" path="res://Sprites/white-circle-free-png.webp" id="1_0avtv"]
+[ext_resource type="Texture2D" uid="uid://crhyj5tfwxtwm" path="res://Sprites/lklkl.png" id="2_gquyj"]
+[ext_resource type="Script" path="res://Scripts/RayCast2D.gd" id="5_l4u5u"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_n58y1"]
+radius = 24.0
+
+[node name="enemy" type="CharacterBody2D"]
+position = Vector2(69, 81)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 1)
+shape = SubResource("CircleShape2D_n58y1")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(-0.499999, 1)
+scale = Vector2(0.305, 0.31)
+texture = ExtResource("1_0avtv")
+
+[node name="PointLight2D" type="PointLight2D" parent="."]
+texture_filter = 1
+position = Vector2(1, -3)
+energy = 16.0
+shadow_enabled = true
+texture = ExtResource("2_gquyj")
+offset = Vector2(180, -180)
+texture_scale = 1.91
+
+[node name="RayCast2D" type="RayCast2D" parent="."]
+target_position = Vector2(199, -160)
+script = ExtResource("5_l4u5u")
+
+[node name="RayCast2D2" type="RayCast2D" parent="."]
+target_position = Vector2(215, -138)
+script = ExtResource("5_l4u5u")
+
+[node name="RayCast2D3" type="RayCast2D" parent="."]
+target_position = Vector2(180, -192)
+script = ExtResource("5_l4u5u")
+
+[node name="RayCast2D4" type="RayCast2D" parent="."]
+target_position = Vector2(152, -213)
+script = ExtResource("5_l4u5u")
+
+[node name="RayCast2D5" type="RayCast2D" parent="."]
+target_position = Vector2(119, -233)
+script = ExtResource("5_l4u5u")
+
+[node name="RayCast2D6" type="RayCast2D" parent="."]
+target_position = Vector2(77, -226)
+script = ExtResource("5_l4u5u")
+
+[node name="RayCast2D7" type="RayCast2D" parent="."]
+target_position = Vector2(35, -213)
+script = ExtResource("5_l4u5u")
+
+[node name="RayCast2D8" type="RayCast2D" parent="."]
+target_position = Vector2(1, -191)
+script = ExtResource("5_l4u5u")
+
+[node name="RayCast2D9" type="RayCast2D" parent="."]
+target_position = Vector2(215, -85)
+script = ExtResource("5_l4u5u")
+
+[node name="RayCast2D10" type="RayCast2D" parent="."]
+target_position = Vector2(208, -52)
+script = ExtResource("5_l4u5u")
+
+[node name="RayCast2D11" type="RayCast2D" parent="."]
+target_position = Vector2(209, -20)
+script = ExtResource("5_l4u5u")

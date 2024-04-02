@@ -1,0 +1,69 @@
+[gd_scene load_steps=6 format=3 uid="uid://cd4w4r6alqng8"]
+
+[ext_resource type="FontFile" uid="uid://pykkc1t2k6dr" path="res://Sprites/BAD GRUNGE.ttf" id="1_cu4t1"]
+[ext_resource type="Script" path="res://Scripts/deathScreen.gd" id="1_ftrrk"]
+
+[sub_resource type="FontVariation" id="FontVariation_4d7vj"]
+base_font = ExtResource("1_cu4t1")
+
+[sub_resource type="FontVariation" id="FontVariation_ng47f"]
+base_font = ExtResource("1_cu4t1")
+
+[sub_resource type="FontVariation" id="FontVariation_0wlin"]
+base_font = ExtResource("1_cu4t1")
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ftrrk")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = -604.0
+offset_top = -390.0
+offset_right = 1847.0
+offset_bottom = 1382.0
+color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_left = 304.0
+offset_top = 284.0
+offset_right = 914.0
+offset_bottom = 374.0
+theme_override_fonts/font = SubResource("FontVariation_4d7vj")
+theme_override_font_sizes/font_size = 45
+text = "You have been spotted... Stay in the shadows
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="restartBtn" type="Button" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_left = 472.0
+offset_top = 384.0
+offset_right = 574.0
+offset_bottom = 431.0
+theme_override_fonts/font = SubResource("FontVariation_ng47f")
+theme_override_font_sizes/font_size = 32
+text = "Restart"
+
+[node name="mainmenuBtn" type="Button" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_left = 592.0
+offset_top = 384.0
+offset_right = 709.0
+offset_bottom = 433.0
+theme_override_fonts/font = SubResource("FontVariation_0wlin")
+theme_override_font_sizes/font_size = 31
+text = "Main Menu
+"
+
+[connection signal="pressed" from="restartBtn" to="." method="_on_restart_btn_pressed"]

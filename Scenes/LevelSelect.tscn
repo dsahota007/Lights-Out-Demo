@@ -1,0 +1,79 @@
+[gd_scene load_steps=3 format=3 uid="uid://lt00b1p6e5wf"]
+
+[ext_resource type="Script" path="res://Scripts/LevelSelect.gd" id="1_d03lc"]
+[ext_resource type="FontFile" uid="uid://pykkc1t2k6dr" path="res://Sprites/BAD GRUNGE.ttf" id="1_qylol"]
+
+[node name="LevelSelect" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_d03lc")
+
+[node name="backToMain" type="Button" parent="."]
+layout_mode = 0
+offset_left = 73.0
+offset_top = 33.0
+offset_right = 243.0
+offset_bottom = 91.0
+theme_override_fonts/font = ExtResource("1_qylol")
+theme_override_font_sizes/font_size = 25
+text = "Back to Main Menu "
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 458.0
+offset_top = 26.0
+offset_right = 919.0
+offset_bottom = 125.0
+theme_override_fonts/font = ExtResource("1_qylol")
+theme_override_font_sizes/font_size = 65
+text = "Level Select"
+
+[node name="l1" type="Button" parent="."]
+layout_mode = 0
+offset_left = 84.0
+offset_top = 167.0
+offset_right = 175.0
+offset_bottom = 224.0
+theme_override_fonts/font = ExtResource("1_qylol")
+theme_override_font_sizes/font_size = 35
+text = "1"
+
+[node name="l2" type="Button" parent="."]
+layout_mode = 0
+offset_left = 212.0
+offset_top = 168.0
+offset_right = 304.0
+offset_bottom = 225.0
+theme_override_fonts/font = ExtResource("1_qylol")
+theme_override_font_sizes/font_size = 35
+text = "2"
+
+[node name="l3" type="Button" parent="."]
+layout_mode = 0
+offset_left = 343.0
+offset_top = 168.0
+offset_right = 434.0
+offset_bottom = 225.0
+theme_override_fonts/font = ExtResource("1_qylol")
+theme_override_font_sizes/font_size = 35
+text = "3"
+
+[node name="l4" type="Button" parent="."]
+layout_mode = 0
+offset_left = 471.0
+offset_top = 166.0
+offset_right = 562.0
+offset_bottom = 223.0
+theme_override_fonts/font = ExtResource("1_qylol")
+theme_override_font_sizes/font_size = 35
+text = "4"
+
+[connection signal="pressed" from="backToMain" to="." method="_on_back_to_main_pressed"]
+[connection signal="pressed" from="l1" to="." method="_on_l_1_pressed"]
+[connection signal="pressed" from="l2" to="." method="_on_l_2_pressed"]
+[connection signal="pressed" from="l3" to="." method="_on_l_3_pressed"]
+[connection signal="pressed" from="l4" to="." method="_on_l_4_pressed"]

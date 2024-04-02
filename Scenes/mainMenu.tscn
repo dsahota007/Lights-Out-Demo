@@ -1,0 +1,63 @@
+[gd_scene load_steps=5 format=3 uid="uid://c3s1fo4noch7u"]
+
+[ext_resource type="Script" path="res://Scripts/mainMenu.gd" id="1_bscht"]
+[ext_resource type="FontFile" uid="uid://pykkc1t2k6dr" path="res://Sprites/BAD GRUNGE.ttf" id="1_v6pp5"]
+
+[sub_resource type="FontVariation" id="FontVariation_6grit"]
+base_font = ExtResource("1_v6pp5")
+
+[sub_resource type="FontVariation" id="FontVariation_yrllx"]
+base_font = ExtResource("1_v6pp5")
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_bscht")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = -1715.0
+offset_top = -865.0
+offset_right = 2830.0
+offset_bottom = 1755.0
+color = Color(0.054902, 0.0588235, 0.054902, 1)
+
+[node name="Label" type="Label" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_left = 455.0
+offset_top = 250.0
+offset_right = 939.0
+offset_bottom = 373.0
+theme_override_fonts/font = SubResource("FontVariation_6grit")
+theme_override_font_sizes/font_size = 80
+text = "Light's Out"
+
+[node name="startBtn" type="Button" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_left = 428.0
+offset_top = 380.0
+offset_right = 562.0
+offset_bottom = 428.0
+theme_override_fonts/font = SubResource("FontVariation_yrllx")
+theme_override_font_sizes/font_size = 32
+text = "Start game"
+
+[node name="lvlSelectBtn" type="Button" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_left = 612.0
+offset_top = 381.0
+offset_right = 747.0
+offset_bottom = 427.0
+theme_override_fonts/font = ExtResource("1_v6pp5")
+theme_override_font_sizes/font_size = 31
+text = " Level Select "
+
+[connection signal="pressed" from="startBtn" to="." method="_on_start_btn_pressed"]
+[connection signal="pressed" from="lvlSelectBtn" to="." method="_on_lvl_select_btn_pressed"]
